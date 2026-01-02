@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.orcamentoapi'
     compileSdkVersion 30
     buildToolsVersion = "30.0.2"
 
@@ -14,5 +15,5 @@ android {
 
 dependencies {
     implementation 'com.google.android.gms:play-services-vision:20.1.3' // 8.1.0 or higher required
-    implementation ("com.facebook.react:react-native:0.46.4") { force = true }
+    implementation 'com.facebook.react:react-native:0.46.4'
 }
